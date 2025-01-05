@@ -36,7 +36,7 @@ g++ -o sound_decomposition main.cpp ./libs/Imaginary.cpp -lwinmm
 1. **`Run the program`**: Execute the compiled sound_decomposition executable.
 2. **`Recording`**: The program will start recording audio from the input device (your microphone or sound input).
 3. **`Frequency Decomposition`**: It will then perform a frequency decomposition of the captured sound using the Discrete Fourier Transform (DFT) on the frequency range of 70 Hz - 340 Hz (based on standard guitar tuning).
-4. **`Visualization`**: A simple text-based graph will be displayed in the terminal, showing the strength of the detected frequencies. The graph's Y-axis represents the strength of the frequency components, and the X-axis corresponds to the frequency values.
+4. **`Visualization`**: A simple text-based graph will be displayed in the terminal, showing the strength of the detected frequencies. The graph's X-axis represents the strength of the frequency components, and the Y-axis corresponds to the frequency values.
 
 ## Future development
 
