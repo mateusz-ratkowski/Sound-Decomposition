@@ -1,6 +1,6 @@
 #include <iostream>
 #include "record.h"
-#include "./libs/Imaginary.h"
+#include "./C++-Imaginary-numbers-library/Imaginary.h"
 #include <signal.h>
 #include <iomanip>
 #include <cstdlib>
