@@ -85,4 +85,4 @@ int main() {
 }
 
 // Compilation command:
-// g++ -o sound_decomposition main.cpp ./libs/Imaginary.cpp -lwinmm
+// g++ -o sound_decomposition main.cpp ./libs/Imaginary/Imaginary.cpp -lwinmm
