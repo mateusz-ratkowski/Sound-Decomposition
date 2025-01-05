@@ -28,7 +28,7 @@ This C++ library provides a class `Imaginary` for representing and performing op
 To compile the project, use the following command:
 
 ```bash
-g++ -o sound_decomposition main.cpp ./libs/Imaginary.cpp -lwinmm
+g++ -o sound_decomposition main.cpp ./libs/Imaginary/Imaginary.cpp -lwinmm
 ```
 
 ## Usage
