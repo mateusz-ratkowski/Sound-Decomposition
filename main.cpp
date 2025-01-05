@@ -1,6 +1,6 @@
 #include <iostream>
-#include "record.h"
-#include "./libs/Imaginary.h"
+#include "./libs/record/record.h"
+#include "./libs/Imaginary/Imaginary.h"
 #include <signal.h>
 #include <iomanip>
 #include <cstdlib>
@@ -72,7 +72,6 @@ int main() {
             DFT_resoult[i-70] = z.module();
         }
         drawGraph(DFT_resoult, 270);
-        //break;
     }
 
     handler(5);
