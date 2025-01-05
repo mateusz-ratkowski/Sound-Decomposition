@@ -75,7 +75,6 @@ int main() {
     }
 
     handler(5);
-    //collectAudioData(buffer, bufferSize);
 
     // Processing the data in the buffer (e.g., analysis)
     for (int i = 0; i < 44100; i++) {
